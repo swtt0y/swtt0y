@@ -1,5 +1,7 @@
 ## ola
-
+<div>
+  <img width="400" src="https://github.com/swtt0y/swtt0y/blob/main/github-metrics.svg"></img>
+</div>
 <!--
 **swtt0y/swtt0y** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
