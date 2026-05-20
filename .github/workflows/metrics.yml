@@ -15,7 +15,7 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Opções para replicar a imagem
-          user: swwt0y
+          user: swtt0y
           template: classic
           base: header, community, repositories, metadata
           config_timezone: America/Sao_Paulo
