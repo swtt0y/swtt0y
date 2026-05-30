@@ -1,4 +1,5 @@
 ## ola
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Bem-vindo+ao+meu+perfil!;Seja+bem-vindo!&center=true&width=500&height=50)](https://git.io/typing-svg)
 <div>
   <img width="400" src="https://github.com/swtt0y/swtt0y/blob/main/github-metrics.svg"></img>
 </div>
