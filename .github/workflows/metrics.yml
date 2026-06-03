@@ -1,55 +1,63 @@
-name: Metrics
+name: metrics
 
 on:
-  schedule:
-    - cron: "0 0 * * *"
+  push:
+    branches: [ "main" ]
   workflow_dispatch:
 
 jobs:
-
-  # 1 — Header
-  metrics-header:
+  render-metrics:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
+    steps: 
+
+      - name: Metrics - Projeto Jogo 1
+        uses: lowlighter/metrics@latest
         with:
+          template: repository
+          filename: metrics.projetojogo1.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: swtt0y
-          filename: metrics.header.svg
-          base: header
-          base_indepth: yes
+          repo: projetojogo1
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_projects: yes
 
-  # 2 — Activity
-  metrics-activity:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Metrics - Projeto 2
+        uses: lowlighter/metrics@latest
         with:
+          template: repository
+          filename: metrics.projeto2.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: swtt0y
-          filename: metrics.activity.svg
-          base: activity
-          base_indepth: yes
+          repo: Projeto2
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_projects: yes
 
-  # 3 — Repositories
-  metrics-repositories:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
+      - name: Metrics - Jogo Resgate Pantanal
+        uses: lowlighter/metrics@latest
         with:
+          template: repository
+          filename: metrics.jogo_resgate_pantanal.svg
           token: ${{ secrets.METRICS_TOKEN }}
           user: swtt0y
-          filename: metrics.repositories.svg
-          base: repositories
-          base_indepth: yes
+          repo: Jogo_Resgate_Pantanal
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_projects: yes
 
-  # 4 — Languages
+      - name: Metrics - Projeto em C
+        uses: lowlighter/metrics@latest
+        with:
+          template: repository
+          filename: metrics.projeto-em-c.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: swtt0y
+          repo: projeto-em-C
+          plugin_lines: yes
+          plugin_followup: yes
+          plugin_projects: yes
+    
   metrics-languages:
     runs-on: ubuntu-latest
     permissions:
@@ -68,22 +76,3 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_sections: most-used
           plugin_languages_threshold: 0%
-
-  # 5 — Recent activity
-  metrics-recent-activity:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
-          filename: metrics.recent-activity.svg
-          base: ""
-          plugin_activity: yes
-          plugin_activity_days: 14
-          plugin_activity_filter: all
-          plugin_activity_limit: 5
-          plugin_activity_load: 300
-          plugin_activity_visibility: all
