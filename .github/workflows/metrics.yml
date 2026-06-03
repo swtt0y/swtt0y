@@ -27,7 +27,7 @@ jobs:
           template: repository
           filename: metrics.projeto2.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
+          user: anyAfton
           repo: Projeto2 
 
       - name: Metrics - Jogo Resgate Pantanal
@@ -36,7 +36,7 @@ jobs:
           template: repository
           filename: metrics.jogo_resgate_pantanal.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
+          user: Carlos-v-b-Santos
           repo: Jogo_Resgate_Pantanal 
 
       - name: Metrics - Projeto em C
