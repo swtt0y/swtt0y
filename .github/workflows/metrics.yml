@@ -18,7 +18,8 @@ jobs:
           template: repository
           filename: metrics.projetojogo1.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          repository: projetojogo1 
+          user: swtt0y
+          repo: projetojogo1 
 
       - name: Metrics - Projeto 2
         uses: lowlighter/metrics@latest
@@ -26,7 +27,8 @@ jobs:
           template: repository
           filename: metrics.projeto2.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          repository: Projeto2 
+          user: swtt0y
+          repo: Projeto2 
 
       - name: Metrics - Jogo Resgate Pantanal
         uses: lowlighter/metrics@latest
@@ -34,7 +36,8 @@ jobs:
           template: repository
           filename: metrics.jogo_resgate_pantanal.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          repository: Jogo_Resgate_Pantanal 
+          user: swtt0y
+          repo: Jogo_Resgate_Pantanal 
 
       - name: Metrics - Projeto em C
         uses: lowlighter/metrics@latest
@@ -42,7 +45,8 @@ jobs:
           template: repository
           filename: metrics.projeto-em-c.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          repository: projeto-em-C 
+          user: swtt0y
+          repo: projeto-em-C 
     
   metrics-languages:
     runs-on: ubuntu-latest
