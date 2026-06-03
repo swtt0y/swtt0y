@@ -9,7 +9,7 @@ jobs:
   render-metrics:
     runs-on: ubuntu-latest
     permissions:             
-      contents: write       
+      contents: write        
     steps: 
 
       - name: Metrics - Projeto Jogo 1
@@ -18,11 +18,7 @@ jobs:
           template: repository
           filename: metrics.projetojogo1.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
-          repo: projetojogo1
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
+          repo: swtt0y/projetojogo1 
 
       - name: Metrics - Projeto 2
         uses: lowlighter/metrics@latest
@@ -30,11 +26,7 @@ jobs:
           template: repository
           filename: metrics.projeto2.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
-          repo: Projeto2
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
+          repo: swtt0y/Projeto2 
 
       - name: Metrics - Jogo Resgate Pantanal
         uses: lowlighter/metrics@latest
@@ -42,11 +34,7 @@ jobs:
           template: repository
           filename: metrics.jogo_resgate_pantanal.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
-          repo: Jogo_Resgate_Pantanal
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
+          repo: swtt0y/Jogo_Resgate_Pantanal 
 
       - name: Metrics - Projeto em C
         uses: lowlighter/metrics@latest
@@ -54,11 +42,7 @@ jobs:
           template: repository
           filename: metrics.projeto-em-c.svg
           token: ${{ secrets.METRICS_TOKEN }}
-          user: swtt0y
-          repo: projeto-em-C
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_projects: yes
+          repo: swtt0y/projeto-em-C 
     
   metrics-languages:
     runs-on: ubuntu-latest
