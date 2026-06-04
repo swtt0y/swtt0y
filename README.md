@@ -25,45 +25,9 @@ i'm mariana.
 <br clear="left"/>
 <br/>
 <br/>
-
-## ₊⊹ projects
-
-### ─ features
-
-<table>
-  <tr>
-    <td width="440" align="center">
-      <img src="./metrics.projetojogo1.svg"/>
-    </td>
-    <td width="440" align="center">
-      <img src="./metrics.projeto2.svg"/>
-    </td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td width="440" align="center">
-      <img src="./metrics.jogo_resgate_pantanal.svg"/>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-### ─ personal
-
-<table>
-  <tr>
-    <td width="440">
-      <img src="./metrics.projeto-em-c.svg"/>
-    </td>
-  </tr>
-</table>
-
-<br/>
-
-
 ## ࣪ ִ₊⊹ language
-
 <img src="./metrics.languages.svg"/>
+<br/>
+<br/>
+<br/>
+₊⊹ projects
