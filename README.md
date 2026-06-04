@@ -25,9 +25,10 @@ i'm mariana.
 <br clear="left"/>
 <br/>
 <br/>
+
 ## ࣪ ִ₊⊹ language
+
 <img src="./metrics.languages.svg"/>
 <br/>
 <br/>
 <br/>
-₊⊹ projects
