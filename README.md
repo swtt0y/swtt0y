@@ -2,7 +2,7 @@
 <br/>
 <br/>
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=40&duration=4000&pause=99999&color=E57D90&center=true&vCenter=true&width=700&height=90&lines=Bem-vindo!!" alt="Bem-vindo!!" />
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=40&duration=4000&pause=99999&color=ffffff&center=true&vCenter=true&width=700&height=90&lines=WELCOME!!" alt="Bem-vindo!!" />
 </div>
 <br/>
 <br/>
@@ -11,12 +11,10 @@
 
 ## ࣪ ₊⊹ who am I?
 
-<img align="left" src="https://i.pinimg.com/1200x/9a/2a/e4/9a2ae4ce6e445e506b7207f528129ad2.jpg" width="280" style="border-radius:10px; margin-right:20px; margin-bottom:10px"/>
-
-sou a diva querida queria um emprego para gastar com as funtilidades da vida!!
-
-por favor, eu imploro, me contrata seria muito eficiente e legal :)
-
+<img align="left" src="https://i.pinimg.com/1200x/6b/a7/23/6ba723639ac12cbe37d825bf2a98f2d8.jpg" width="280" style="border-radius:100px; margin-right:25px; margin-bottom:60px"/>
+i'm mariana.
+<br/>
+<br/>
 <a href="https://www.linkedin.com/in/mariana-guimarães-242abb364">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
 </a>
@@ -24,7 +22,6 @@ por favor, eu imploro, me contrata seria muito eficiente e legal :)
 <a href="mailto:mariana12guicruz@gmail.com">
   <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
 </a>
-
 <br clear="left"/>
 <br/>
 <br/>
