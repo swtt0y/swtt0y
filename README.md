@@ -7,28 +7,3 @@
 <br/>
 <br/>
 <br/>
-
-
-## ࣪ ₊⊹ who am I?
-
-<img align="left" src="https://i.pinimg.com/1200x/6b/a7/23/6ba723639ac12cbe37d825bf2a98f2d8.jpg" width="280" style="border-radius:100px; margin-right:25px; margin-bottom:60px"/>
-i'm mariana.
-<br/>
-<br/>
-<a href="https://www.linkedin.com/in/mariana-guimarães-242abb364">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-&nbsp;
-<a href="mailto:mariana12guicruz@gmail.com">
-  <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-</a>
-<br clear="left"/>
-<br/>
-<br/>
-
-## ࣪ ִ₊⊹ language
-
-<img src="./metrics.languages.svg"/>
-<br/>
-<br/>
-<br/>
